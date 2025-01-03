@@ -12,6 +12,7 @@ VERSION = "1.0.0"
 
 
 def load_json(file_path):
+    """Loads and reads content of json file"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
